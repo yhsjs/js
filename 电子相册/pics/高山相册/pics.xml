@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pics url="pics">
+	<folder name="高山相册" class="高山">
+          <file>高山1.png</file>
+          <file>高山2.png</file>
+          <file>高山3.png</file>
+          <file>高山4.png</file>
+          <file>高山5.png</file>
+	</folder>
+</pics>

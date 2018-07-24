@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pics url="pics">
+	<folder name="花景相册" class="花景">
+		  <file>花景1.png</file>
+          <file>花景2.png</file>
+          <file>花景3.png</file>
+          <file>花景4.png</file>
+          <file>花景5.png</file>
+	</folder>
+</pics>

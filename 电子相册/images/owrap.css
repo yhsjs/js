@@ -1,0 +1,131 @@
+#wrap{/*页面包含框*/
+      position: absolute;
+      left: 50px;
+      right: 50px;
+      top: 50px;
+      bottom: 50px;
+      margin: 0 auto;
+}
+#logo{/*标题样式*/
+	height: 180px;
+	border: 6px solid;
+	background-color: #ddddff;
+}
+#logo h1{/*半透明显示标题*/
+	display: block;
+	float: left;
+	filter: algha(opacity=50);  /*兼容IE*/
+	-moz-opacity:0.5;           /*兼容Firefox*/
+	opacity: 0.5;               /*标准浏览器*/    
+    } 
+h2{ display: block;
+    padding-top: 127px;
+	float: right;
+	font-size: 20px;
+}
+#nav{/*导航样式*/
+	height: 88px;
+	border: 6px solid;
+	border-top: none;
+	background-color: #ecffff;
+}
+#colours{
+	width: 100px;
+	height: 22px;
+	float: right;
+	padding-top:25px;
+	padding-right: 35px;
+	display: inline;
+}
+#colours p{
+	font-size: 18px;
+}
+#nav li a{
+	display: block;
+	float: left;
+}
+html>/**/body #main{/*主体样式*/
+	overflow: auto;
+	border-width: 6px;
+	border-style: solid;
+	border-top: none;
+	background: url(main.png)repeat-y center;
+	background-size:cover;
+	zoom:1;
+}
+html>/**/body #content{/*右侧栏样式*/
+    float: right;
+    width: 648px;
+    padding: 12px 8px 6px 8px;
+}
+h3{ position: absolute;
+	right: 680px;
+	top: 300px;
+	text-align: center;
+	font-size: 22px;
+}
+#side_menu{/*左侧栏样式*/
+    float: left;
+    padding: 22px 12px 12px 12px;
+    width: 170px;
+    margin-top: 8px;
+}
+#side_menu div{/*子包含框样式*/
+    padding: 4px;
+    margin: 2px auto;
+    float: left;
+    position: relative;
+}
+#side_menu a{/*超链接样式*/
+    border: solid 2px #bbb;
+}
+#side_menu a:hover{
+	border-color: #efefef;
+}
+#side_menu img{/*包含图像样式*/
+    border: solid 3px #efefef;
+}
+#side_menu span{/*包含说明性样式*/
+    position: absolute;
+    right: 12px;
+    bottom: 10px;
+    padding: 2px 4px;
+    color: #eee;
+    background: #444;
+    filter: alpha(opacity=60);
+    -moz-opacity:0.6;
+    opacity:0.6;
+}
+#gallery{
+	position: relative;
+	padding-top: 8px;
+	width: 100%;
+}
+#thumbs{
+	border-left: 6px solid;
+	width: 205px;
+	float: right;
+}
+#thumbs a{
+    float: left;
+    margin: 1px 0 3px 10px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+}
+#thumbs p{
+	text-align: center;
+}
+#thumbs a img{
+	width: 50px;
+	height: 50px;
+}
+#thumbs a:hover{border-color: #8a8a8a;}
+#thumbs a:hover img{
+	width: 56px;
+	height: 56px;
+	position: relative;
+	left: -5px;
+	top: -5px;
+	border:2px solid #fff;
+}

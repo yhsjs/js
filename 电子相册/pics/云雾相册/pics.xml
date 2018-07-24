@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pics url="pics">
+	<folder name="云雾相册" class="云雾">
+		  <file>云雾1.png</file>
+          <file>云雾2.png</file>
+          <file>云雾3.png</file>
+          <file>云雾4.png</file>
+          <file>云雾5.png</file>
+	</folder>
+</pics>

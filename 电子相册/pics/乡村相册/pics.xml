@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pics url="pics">
+	<folder name="乡村相册" class="乡村">
+		  <file>乡村1.png</file>
+          <file>乡村2.png</file>
+          <file>乡村3.png</file>
+          <file>乡村4.png</file>
+          <file>乡村5.png</file>
+	</folder>
+</pics>
