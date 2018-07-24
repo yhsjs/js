@@ -5,8 +5,6 @@
       top: 50px;
       bottom: 50px;
       margin: 0 auto;
-	  height: 1500px;
-	  width: 1400px;
 }
 #logo{/*标题样式*/
 	height: 180px;
@@ -61,7 +59,7 @@ html>/**/body #content{/*右侧栏样式*/
     padding: 12px 8px 6px 8px;
 }
 h3{ position: absolute;
-	right: 490px;
+	right: 680px;
 	top: 300px;
 	text-align: center;
 	font-size: 22px;
