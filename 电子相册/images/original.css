@@ -11,6 +11,8 @@ body{/*页面基本属性*/
      background: #000 url(wrap.png)repeat-x left;
 	 background-size:cover;
      color: #656565;
+	 height:1500px;
+	 width:1400px;
 }
 p{margin: 0;}
 img{border: none;}
